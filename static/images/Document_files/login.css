@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("./../images/login-bg.jpg");
+    overflow: hidden;
+}
+
+.right-panel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 60%;
+    transform: skew(20deg);
+    background-color: whitesmoke;
+}
+
+.login-section {
+    position: relative;
+    top: 30%;
+    left: -10%;
+    transform: skew(-20deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-heading {
+    font-family: "Montserrat", sans-serif;
+}
+
+.login-form {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-field {
+    height: 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 3px solid #487eb0;
+    border-radius: 0.6em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input-field:hover {
+    border: 3px solid #192a56;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    font-family: "Montserrat", sans-serif;
+    align-self: center;
+}
+
+.login {
+    width: 70px;
+    height: 30px;
+    border-color: #273c75;
+    background-color: #273c75;
+    color: white;
+    transition: background 300ms ease-in-out;
+}
+
+.login:hover {
+    background-color: #192a56;
+}
+
+.register {
+    margin: 30px;
+    width: 90px;
+    height: 30px;
+    border-color: #7f8fa6;
+    background-color: #7f8fa6;
+    color: white;
+    transition: background 300ms ease-in-out;
+}
+
+.register:hover {
+    background-color: #718093;
+}
+
+.error {
+    color: red;
+}

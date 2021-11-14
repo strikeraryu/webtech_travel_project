@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Roboto+Mono:300,400");
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(rgba(34, 41, 65, 0.45), rgba(46, 55, 86, 0.45)), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1387378/bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-head header {
+    height: 75px;
+}
+
+.hero-head header .navbar-item img {
+    height: 75px;
+    max-height: none;
+}
+
+.hero-head header .navbar-item .is-primary {
+    border-color: white !important;
+    color: white !important;
+}
+
+.hero-head header .navbar-item .is-primary:hover {
+    background: rgba(0, 0, 0, 0) !important;
+    border-color: white !important;
+    color: white !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-body .title {
+    margin-top: 10%;
+    margin-left: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300 !important;
+    font-size: 4rem !important;
+    letter-spacing: 15px;
+    color: #ffffff !important;
+}
+
+.hero-body .subtitle .countdown {
+    color: #ffffff;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+
+/* -------------------- */
+
+
+/* -- Animations CSS -- */
+
+
+/* -------------------- */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        opacity: 1\9;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.fade.fadeOne {
+    animation-delay: 0.1s;
+}
+
+.fade.fadeTwo {
+    animation-delay: 0.4s;
+}
+
+.fade.fadeThree {
+    animation-delay: 0.4s;
+}
+
+.fade.fadeThree span {
+    font-size: 0.8rem;
+}

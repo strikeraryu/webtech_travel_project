@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #2f4256 url('./../images/error-bg.jpg')repeat 0 0;
+    text-align: center;
+    font-family: 'PT Sans', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+    min-width: 100%;
+}
+
+.layout {
+    width: 400px;
+    margin: 0 auto;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.text {
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+.title {
+    font-size: 120px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    line-height: 1;
+    font-family: Arial, Verdana, sans-serif;
+}
